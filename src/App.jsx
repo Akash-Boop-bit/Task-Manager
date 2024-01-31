@@ -1,4 +1,4 @@
-
+import AddButton from './components/AddButton'
 import { useState } from 'react'
 import Header from './components/Header'
 
@@ -14,6 +14,7 @@ function App() {
   return (
     <>
       <Header />
+      <AddButton />
     </>
   )
 }

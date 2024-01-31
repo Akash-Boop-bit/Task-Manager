@@ -1,0 +1,43 @@
+.mainbutton {
+  margin-top: 4vw;
+  transition: 0.3s ease-in;
+  color: white;
+  background-color: black;
+  border-radius: 2vw;
+  border: none;
+  font-size: 2vw;
+  padding: 2vw;
+  animation: hello 4s ease-in infinite ;
+}
+
+@keyframes hello {
+  0% {
+    border: 0.5vw solid black;
+  }
+  25%{
+    border: 0.5vw solid blue;
+  }
+  50%{
+    border: 0.5vw solid yellow;
+  }
+  75%{
+    border: 0.5vw solid red;
+  }
+  100%{
+    border: 0.5vw solid black;
+  }
+
+}
+
+.mainbutton:hover {
+  background-color: hsl(0, 0%, 20%);
+}
+.mainbutton:active {
+  background-color: hsl(0, 0%, 10%);
+}
+
+.maindiv {
+  display: flex;
+  justify-content: center;
+  transition: 1s ease-in;
+}

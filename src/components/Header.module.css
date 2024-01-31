@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  color: white;
+  justify-content: center;
+  text-decoration-line: underline;
+}
+
+.heading1 {
+  transition: 0.3s ease-in;
+  font-size: 4vw;
+  margin-top: 3vw;
+}
+
+.under {
+  color: white;
+  font-size: large;
+}
