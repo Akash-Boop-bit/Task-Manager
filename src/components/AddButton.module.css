@@ -6,7 +6,7 @@
   border-radius: 2vw;
   border: none;
   font-size: 2vw;
-  padding: 2vw;
+  padding: 1vw 2vw;
   animation: hello 4s ease-in infinite ;
 }
 

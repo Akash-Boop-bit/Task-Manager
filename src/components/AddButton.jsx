@@ -1,11 +1,11 @@
 import {useState} from 'react'
 import classes from './AddButton.module.css'
 
-const AddButton = () => {
+const AddButton = ( { onclose } ) => {
   return (
     <>
       <div className={classes.maindiv}>
-        <button className={classes.mainbutton}>
+        <button onClick={onclose} className={classes.mainbutton}>
           Add Tasks
         </button>
       </div>

@@ -1,0 +1,77 @@
+.maindiv {
+  transition: 0.3s ease-in;
+  display: flex;
+  flex-direction: column;
+  background-color: hsl(240, 100%, 70%);
+  padding: 1vw 2.5vw 3vw;
+}
+
+.mindiv {
+  transition: 0.3s ease-in;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3vw;
+}
+
+.heading {
+  transition: 0.3s ease-in;
+  color: white;
+  font-size: 1.8vw;
+  margin-bottom: 0.1vw;
+  font-weight: bold;
+
+}
+
+.inp {
+  transition: 0.3s ease-in;
+  background-color: hsl(240, 100%, 80%);
+  color: white;
+  height: 2vw;
+  font-size: 1.8vw;
+  border: none;
+  border-radius: 1vw;
+  padding: 1vw 2vw;
+  font-weight: bold;
+}
+
+
+.textinp {
+  transition: 0.3s ease-in;
+  background-color: hsl(240, 100%, 80%);
+  color: white;
+  font-size: 1.5vw;
+  border: none;
+  border-radius: 2vw;
+  padding: 1vw 2vw;
+
+}
+
+.cancel {
+  transition: 0.1s ease-in;
+  background-color: red;
+  color: white;
+  font-size: 2vw;
+  border: none;
+  border-radius: 2vw;
+  padding: 0.5vw 1vw;
+
+}
+
+.cancel:hover {
+  background-color: hsl(0, 100%, 35%);
+}
+
+.add {
+  padding: 0.5vw 2vw;
+  border: none;
+  border-radius: 2vw;
+  margin-left: 4vw;
+  transition: 0.1s ease-in;
+  background-color: yellow;
+  color: black;
+  font-size: 2vw;
+}
+
+.add:hover {
+  background-color: hsl(60, 100%, 35%);
+}

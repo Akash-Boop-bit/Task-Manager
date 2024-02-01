@@ -1,0 +1,61 @@
+.maindiv {
+  color: white;
+  background-color: rgb(130, 130, 204);
+  border-radius: 2vw;
+  padding: 0vw 2vw 1vw;
+  display: flex;
+  align-items: center;
+  height: max-content;
+  margin-bottom: 1vw;
+  text-align: center;
+  min-height: 8vw;
+  min-width: 80vw;
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  right: 5vw;
+}
+
+.delete {
+  transition: 0.3s ease-in;
+  margin-top: 1vw;
+  font-size: 2vw;
+  background-color: red;
+  border: none;
+  border-radius: 1vw;
+  color: white;
+  padding: 0.5vw 1.5vw;
+}
+
+.delete:hover {
+  background-color: hsl(0, 100%, 30%);
+}
+
+.delete:active {
+  background-color: hsl(0, 100%, 40%);
+}
+
+.head {
+  text-align: center;
+  font-size: 2vw;
+  text-decoration: underline;
+}
+
+.linediv {
+  display: flex;
+  margin-top: 1vw;
+  margin-left: 1vw;
+  min-height: 6vw;
+  max-height: max-content;
+  width: 0.3vw;
+  background-color: white;
+}
+
+.par {
+  margin-left: 1vw;
+  font-size: 1.5vw;
+  text-align: center;
+  max-width: 20vw;
+}

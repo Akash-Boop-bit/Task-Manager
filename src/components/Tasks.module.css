@@ -1,0 +1,10 @@
+.unlist {
+  margin-top: 4vw;
+  list-style: none;
+  display: inline-block;
+}
+
+.list {
+  margin-left: 1vw;
+  width: 40vw;
+}
